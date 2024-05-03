@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(212, 212, 209);
+}
+header{
+    background-color: rgb(20, 20, 20) ;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    background-color: rgb(20, 20, 20) ;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    display: inline-block;
+    position:relative;
+}
+nav ul li a{
+    display:block;
+    padding:15px;
+    color: rgb(36, 36, 36);
+    text-decoration:none;
+}
+nav ul li a:hover{
+    color: #540257;
+    background-color: rgb(165, 123, 184); 
+}
+nav ul li ul.dropdown{
+    background-color: #504f4f;
+    position:absolute;
+    display:none;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2); 
+}
+nav ul li:hover ul.dropdown{
+    display:block;
+}
+nav ul li ul.dropdown li{
+    display:block;
+}
+nav ul li ul.dropdown li a{
+    padding:10px 20px;
+    color: rgb(20, 20, 20);
+    text-decoration:none;
+    display:block;
+}
